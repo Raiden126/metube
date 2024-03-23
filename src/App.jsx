@@ -1,8 +1,11 @@
 import React from 'react'
+import LandingPage from './pages/LandingPage'
 
 const App = () => {
   return (
-    <div className='text-3xl text-red-900 uppercase underline'>App</div>
+    <>
+      <LandingPage />
+    </>
   )
 }
 
